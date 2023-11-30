@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+	<!-- Browser que puede usar: Chrome, Firefox -->
+	<Browser>Chrome</Browser>
+	<UrlEnvironment>https://timetracker.cursos.ces.com.uy/login.php</UrlEnvironment>
+  <FirefoxLocation>C:\\Users\\marc.innocent\\AppData\\Local\\Mozilla Firefox\\firefox.exe</FirefoxLocation>
+</Environment>

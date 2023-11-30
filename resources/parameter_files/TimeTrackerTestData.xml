@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestValues>
+	<Usuarios>
+		<UserID>marc.innocent</UserID>
+		<UserPass>marc.innocent</UserPass>
+    <NombreUsuario>MARC-JUNIOR INNOCENT</NombreUsuario>
+    <Rol>User</Rol>
+	</Usuarios>
+	<TimePage>
+		<Proyecto>TATF-202205</Proyecto>
+		<HoraInicio>8:00</HoraInicio>
+		<HoraFin>18:00</HoraFin>
+		<Duracion>10:00</Duracion>
+		<Nota>Nota Hora Test</Nota>
+		<TotalHSemana>10:00</TotalHSemana>
+		<TotalHDia>10:00</TotalHDia>
+		<SemanaE>0:00</SemanaE>
+		<DiaE>0:00</DiaE>
+	</TimePage>
+	<ReportPage>
+		<TotalH>10:00</TotalH>
+	</ReportPage>
+</TestValues>
