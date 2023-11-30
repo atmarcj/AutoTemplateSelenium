@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ScreenComponents>
+	<TimeTracker>
+		<TodayBtn>Hoy</TodayBtn>
+		<DropdownProyectos>project</DropdownProyectos>
+		<Proyecto>//option[. = 'TATF-202205']</Proyecto>
+		<HoraInicio>start</HoraInicio>
+		<HoraFin>finish</HoraFin>
+		<Nota>note</Nota>
+		<BotonSubmit>btn_submit</BotonSubmit>
+		<ProyectoEntrado>.text-cell:nth-child(1)</ProyectoEntrado>
+		<HoraInicioEntrada>//div[2]/table/tbody/tr[2]/td[2]</HoraInicioEntrada>
+		<HoraFinEntrada>//div[2]/table/tbody/tr[2]/td[3]</HoraFinEntrada>
+		<DuracionEntrada>//div[2]/table/tbody/tr[2]/td[4]</DuracionEntrada>
+		<NotaEntrada>//div[2]/table/tbody/tr[2]/td[5]</NotaEntrada>
+		<TotalHorasSemana>.day-totals-col1</TotalHorasSemana>
+		<TotalHoras>.day-totals-col2</TotalHoras>
+		<BotonEliminar>td:nth-child(7) .table_icon</BotonEliminar>
+		<BotonConfirmarEl>delete_button</BotonConfirmarEl>
+    <BotonInicialPath>/html/body/div[7]/form/div[2]/table/tbody/tr[</BotonInicialPath>
+    <BotonEndPath>]/td[7]/a</BotonEndPath>
+	</TimeTracker>
+
+  <Login>
+    <LoginUser>login</LoginUser>
+    <LoginPass>password</LoginPass>
+    <LoginButton>btn_login</LoginButton>
+  </Login>
+  <Header>
+    <LogoutBtn>Finalizar sesión</LogoutBtn>
+    <ReportsBtn>Reportes</ReportsBtn>
+    <PersonsBtn>Personas</PersonsBtn>
+    <ProyectsBtn>Proyectos</ProyectsBtn>
+    <TimeTrackerBtn>Tiempo</TimeTrackerBtn>
+  </Header>
+
+  <Personas>
+    <TablaPersonas>body:nth-child(2) div.page-content > table.x-scrollable-table:nth-child(2)</TablaPersonas>
+    <TablaTr>tr</TablaTr>
+  </Personas>
+  
+  <Proyectos>
+    <LocatorPartOne>tr:nth-child(</LocatorPartOne>
+    <LocatorPartTwo>) > .text-cell:nth-child(1)</LocatorPartTwo>
+  </Proyectos>
+
+  <Reportes>
+    <PeriodDropdown>period</PeriodDropdown>
+    <PeriodOptHoy>//option[. = 'hoy']</PeriodOptHoy>
+    <ProyectsDropdown>project</ProyectsDropdown>
+    <ProyectTATFitem1>//option[. = 'TATF-202205']</ProyectTATFitem1>
+    <ProyectTATFitem2>//option[. = 'IATF-202205']</ProyectTATFitem2>
+    <GenerateButton>.button-set > #btn_generate</GenerateButton>
+    <Fecha>.date-cell</Fecha>
+    <NombreProyecto>.text-cell:nth-child(2)</NombreProyecto>
+    <HoraInicio>.time-cell:nth-child(3)</HoraInicio>
+    <HoraFin>.time-cell:nth-child(4)</HoraFin>
+    <TotalDia>tr:nth-child(2) > .time-cell:nth-child(5)</TotalDia>
+    <Nota>.text-cell:nth-child(6)</Nota>
+    <TotalReporte>.subtotal-cell</TotalReporte>
+  </Reportes>
+    
+</ScreenComponents>
